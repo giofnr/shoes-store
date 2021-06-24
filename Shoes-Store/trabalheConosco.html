@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Shoes Store</title>
+  </head>
+  <body>
+    <header class="container">
+      <img src="./img/logo-color.png" alt="Logo" />
+      <nav>
+        <a href="#" class="nav-link">Todos os produtos</a>
+        <a href="#" class="nav-link">Coleções</a>
+        <a href="#" class="nav-link">Outlet</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="banner"></section>
+      <section>
+        <h2>Faça parte do nosso time</h2>
+        <div class="contato">
+          <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="name" />
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="whats">WhatsApp</label>
+            <input type="tel" name="whats" id="whats" />
+
+            <label for="departamentos">Departamentos</label>
+            <select name="departamentos" id="departamentos">
+              <option value="" selected disabled>Selecione um departamento</option>
+              <option value="tecnologia">Tecnologia</option>
+              <option value="design">Design</option>
+              <option value="rh">Rh</option>
+              <option value="carinho em filhotes">Carinho em filhotes</option>
+            </select>
+
+            <label>Disponibilidade</label>
+            <div class="options">
+
+              <input type="checkbox" name="disponibilidade" id="opcao-integral"><label for="opcao-integral">Integral (8h)</label>
+
+              <input type="checkbox" name="disponibilidade" id="opcao-meio"><label for="opcao-meio">Meio-período (4h)</label>
+
+              <input type="checkbox" name="disponibilidade" id="freelancer"><label for="freelancer">Freela</label>
+            </div>
+
+            <label>Qual a melhor forma para entrarmos em contato com você?</label>
+            <div class="options2">
+              <input type="radio" name="forma-contato" value="e-mail"><label for="e-mail">E-mail</label>
+              <input type="radio" name="forma-contato" value="ligacao"><label for="ligacao">Ligação</label>
+              <input type="radio" name="forma-contato" value="whatsapp"><label for="whatsapp">WhatsApp</label>
+            </div>
+
+            <label for="comentario">Deixe seu comentário:</label>
+            <div>
+              <textarea name="comentario" id="comentário" cols="80" rows="10" >Comentário</textarea>
+            </div>
+
+            <label>Currículo:</label>
+            <div>
+              <input type="file" name="curriculo" accept=".pdf">
+            </div>
+
+            <div>
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+            <p>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <div>
+        <img src="./img/logo-white.png" alt="White Logo" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+          temporibus quasi fugit non sint aperiam dicta possimus iusto ea!
+        </p>
+      </div>
+
+      <nav>
+        <div id="categorias">
+          <p>Categorias</p>
+          <a href="#" class="nav-link">sandálias</a>
+          <a href="#" class="nav-link">botas</a>
+          <a href="#" class="nav-link">tênis</a>
+          <a href="#" class="nav-link">oxford</a>
+          <a href="#" class="nav-link">coturnos</a>
+        </div>
+
+        <div id="institucional">
+          <p>Institucional</p>
+          <a href="#" class="nav-link">sobre nós</a>
+          <a href="#" class="nav-link">perguntas frequentes</a>
+          <a href="#" class="nav-link">política de privacidade</a>
+          <a href="#" class="nav-link">rastreamento de pedidos</a>
+          <a href="trabalheConosco.html" class="nav-link">trabalhe conosco</a>
+          <a href="#" class="nav-link">contato</a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
